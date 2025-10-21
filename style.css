@@ -1,0 +1,61 @@
+/* fondo con un gradiente */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #a79dc9dd;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 200px;
+
+    /* imagen de fondo */
+    background-image: url(KuromiReloj.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*contenedor general */
+.contenedor {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+/* estilo del reloj */
+.reloj {
+    font-size: 80px;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* colores dinámicos */
+#hrs {
+    color: #34c6ee;
+}
+#min {
+    color: #e51fff;
+}
+#seg {
+    color: #6fff00;
+}
+
+/* animación sutil */
+.reloj span {
+    transition: all 0.3s ease;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #d1aecf;
+    justify-content: flex-start;
+    align-items: right;
+    padding-left: 270px;
+}
